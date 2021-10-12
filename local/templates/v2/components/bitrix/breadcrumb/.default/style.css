@@ -1,0 +1,76 @@
+ul.breadcrumb {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+}
+ul.breadcrumb li {
+	margin: 2px 0;
+}
+ul.breadcrumb li a {
+	color: #eee;
+	display: block;
+	background: rgba(255,255,255, 0.25);
+	text-decoration: none;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px 0 5px;
+	text-align: center;
+	margin-right: 23px;
+  font-size: 13px; 
+	transition: all 0.3s;
+}
+ul.breadcrumb li:first-child a {
+	padding-left: 30px;
+	border-radius: 4px 0 0 4px;
+	font-size: 0;
+	width: 25px;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSIwIDAgMjIgMTYiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxMi4zNiI+PGRlZnM+PHBhdGggZD0iTTE4Ljc3IDcuODFMMjIgNy44MUwxMS4xNSAwTDAgNy44MUwzLjUyIDcuODFMMy41MiAxNkw4LjggMTZMOC44IDEwLjM3TDEzLjQ5IDEwLjM3TDEzLjQ5IDE2TDE4Ljc3IDE2TDE4Ljc3IDcuODFaIiBpZD0iYzJSU2ZtOFZuQiI+PC9wYXRoPjwvZGVmcz48Zz48Zz48Zz48dXNlIHhsaW5rOmhyZWY9IiNjMlJTZm04Vm5CIiBvcGFjaXR5PSIxIiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjEiPjwvdXNlPjxnPjx1c2UgeGxpbms6aHJlZj0iI2MyUlNmbThWbkIiIG9wYWNpdHk9IjEiIGZpbGwtb3BhY2l0eT0iMCIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1vcGFjaXR5PSIwIj48L3VzZT48L2c+PC9nPjwvZz48L2c+PC9zdmc+")
+}
+ul.breadcrumb li:first-child a:before {
+	border: none;
+}
+ul.breadcrumb li:last-child a {
+	padding-right: 15px;
+	border-radius: 0 4px 4px 0;
+	margin-right: 0;
+}
+ul.breadcrumb li:last-child a:after {
+	border: none;
+}
+ul.breadcrumb li a:before, 
+ul.breadcrumb li a:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	border: 0 solid rgba(255,255,255, 0.25);
+	border-width: 15px 10px;
+	width: 0;
+	height: 0;
+	transition: all 0.3s;	
+}
+ul.breadcrumb li a:before {
+	left: -20px;
+	border-left-color: transparent;
+}
+ul.breadcrumb li a:after {
+	left: 100%;
+	border-color: transparent;
+	border-left-color: rgba(255,255,255, 0.25);
+}
+ul.breadcrumb li a:hover {
+	background-color: rgba(255,255,255, 0.55);
+	color: #fff;
+}
+ul.breadcrumb li a:hover:before {
+	border-color: rgba(255,255,255, 0.55);
+	border-left-color: transparent;
+}
+ul.breadcrumb li a:hover:after {
+	border-left-color: rgba(255,255,255, 0.55);
+}

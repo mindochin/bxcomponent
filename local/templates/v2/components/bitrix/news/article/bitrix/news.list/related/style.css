@@ -1,0 +1,28 @@
+.article-meta {
+	color: #6C7698;
+	font-size: 0.7em;
+	border-top: 1px dotted #8C8C8C;
+	font-weight: 500;
+	padding: 0px 0px 8px 0px;
+	margin: -5px 0px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+}
+.article-meta .fa { padding-left: 20px; }
+.related_article_list .article-card h3 {
+	margin: 0em 0px 1em 0px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.6;	
+	padding: 0px;
+	text-align: center;
+}
+.article-card h3 a {
+	text-decoration: none;
+	color: #000000;
+}
+.article-card h3 a:hover {
+	text-decoration: underline;
+	color: #175a34;
+}

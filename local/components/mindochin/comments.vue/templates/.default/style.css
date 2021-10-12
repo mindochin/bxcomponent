@@ -1,0 +1,32 @@
+#managerCabinet .SearchFormHeaderResult__item {
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+#managerCabinet .catalog__item__table__order_btn .btn {
+	padding: 3px 7px 3px 7px;	
+	font-size: inherit;
+}
+#managerCabinet .catalog__item__table__order_btn .btn:disabled.active {
+	opacity: 1;
+}
+#managerCabinet .catalog__search__form .input-group input[type=text]{
+	width: 1%;
+}
+#managerCabinet .catalog__search__form .input-group > .input-group-prepend > .input-group-text{
+	border: 5px solid #dadada;
+	border-top-left-radius: 0;
+	border-right: 0;
+	background-color: #e5e5e5;
+}
+#managerCabinet .catalog__search__form .input-group > .form-control {
+	height: auto;
+
+}
+#managerCabinet .catalog__item__table__description {width:25%;}
+#managerCabinet .catalog__item__table__distributor {width:90px;}
+#managerCabinet .catalog__item__table__refresh {width:70px;}
+#managerCabinet .catalog__item__table__delivery {width:95px;}
+#managerCabinet .catalog__item__table__price {width:60px;}
+#managerCabinet .catalog__item__table__order {width:100px;}
+#managerCabinet .catalog__item__table__order_btn {width:70px;}
+

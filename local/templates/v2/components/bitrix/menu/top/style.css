@@ -1,0 +1,23 @@
+ul.top_menu {
+	list-style: none;
+  margin: 0;
+  padding-left: 0;
+	display: -webkit-flex; 
+  display: flex;
+	align-items: center;
+  justify-content: space-evenly;
+}
+/*ul.top_menu li {
+	background-color: #f6f6f6;
+}*/
+ul.top_menu a {
+	padding: 3px 6px;
+  color: #fafafa;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: none;
+  transition: .5s linear;
+}
+ul.top_menu a:hover {
+	text-decoration: underline;
+}

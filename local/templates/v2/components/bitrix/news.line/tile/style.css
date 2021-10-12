@@ -1,0 +1,28 @@
+.article-meta {
+	color: #6C7698;
+	font-size: 0.7em;
+	border-bottom: 1px dotted #8C8C8C;
+	font-weight: 500;
+	padding: 0px 0px 8px 0px;
+	margin: -5px 0px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+}
+.article-meta .bi { padding-left: 20px; }
+.article-meta .date { text-transform: uppercase; letter-spacing: 1.3px; }
+.article-card h3 {
+	margin: 0px;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 1.6;	
+	padding: 20px 0;
+}
+.article-card h3 a {
+	text-decoration: none;
+	color: #000000;
+}
+.article-card h3 a:hover {
+	text-decoration: underline;
+	color: #175a34;
+}

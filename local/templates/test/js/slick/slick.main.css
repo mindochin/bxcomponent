@@ -1,0 +1,67 @@
+.slider .card {
+  background-color: #282838;
+  border: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.slider .card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px
+}
+
+.slider-progress {
+  text-align: center;
+}
+
+.slider-progress-input {
+  max-width: 1100px;
+}
+
+.slick-slide.slick-active {
+  opacity: 1
+}
+
+.slider .card .item-overlay {
+position: absolute;
+    bottom: 0;
+    padding: 1.25rem;
+}
+
+.slider .card .item-overlay .name {
+font-size: 26px;
+line-height: 1em;
+}
+.slider .card .item-overlay .age {
+
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: rgb(12, 12, 21);
+  background: linear-gradient(90deg, rgba(12, 12, 21, 1) 0%, rgba(93, 93, 99, 1) 20%, rgba(93, 93, 99, 1) 80%, rgba(12, 12, 21, 1) 100%);
+  border: none;
+  border-radius: 0px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 20px;
+  width: 120px;
+  border-radius: 12px;
+  background: #f0c99a;
+  box-shadow: 0 0 1px black;
+  margin-top: -8px;
+  cursor: pointer;
+}
+
+input[type=range]:focus {
+  outline: none;
+}

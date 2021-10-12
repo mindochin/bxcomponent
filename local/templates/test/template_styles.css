@@ -1,0 +1,244 @@
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(./fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url(./fonts/ProximaNova-Bold.ttf);
+}
+
+@font-face {
+  font-family: segoesc;
+  src: url(./fonts/segoesc.ttf);
+}
+html { overflow-x: hidden; }
+body { overflow-x: hidden; }
+body {
+  background-color: #0b0b13;
+  font-family: ProximaNova-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8f8f8;
+}
+
+h1, h2 {
+  font-family: ProximaNova-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+/*
+.container {
+  background-color: #0b0b13;
+}
+*/
+
+.b1 {
+  background-image: url(./img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  min-height: 650px;
+}
+
+.b3 {
+  background-image: url(./img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  padding: 10em 0px;
+}
+
+.btn-mybtn {
+  color: #0a0a12;
+  font-weight: bold;
+  background: rgb(243, 210, 167);
+  background: linear-gradient(140deg, rgba(243, 210, 167, 1) 25%, rgba(239, 198, 149, 1) 75%);
+  border-color: #f0ba7a;
+  border-radius: 25px;
+}
+
+.btn-mybtn:hover {
+  background: linear-gradient(320deg, rgba(243, 210, 167, 1) 25%, rgba(239, 198, 149, 1) 75%);
+}
+
+.btn-mybtn2 {
+  color: #0a0a12;
+  font-weight: bold;
+  min-width: 250px;
+  background: rgb(243, 210, 167);
+  background: linear-gradient(140deg, rgba(243, 210, 167, 1) 25%, rgba(239, 198, 149, 1) 75%);
+  border-color: #f0ba7a;
+  border-radius: 30px;
+  box-shadow: 0 0 0 3px #000, 0 0 0 4px #caae88, 0 0 0 9px #000, 0 0 0 10px #caae88;
+  margin-left: 15px;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+
+.btn-mybtn2:hover {
+  background: linear-gradient(320deg, rgba(243, 210, 167, 1) 25%, rgba(239, 198, 149, 1) 75%);
+  box-shadow: 0 0 0 3px rgb(75, 49, 0), 0 0 0 4px #caae88, 0 0 0 9px rgb(73, 48, 0), 0 0 0 10px #caae88;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .9);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  text-decoration: underline;
+}
+
+.hp1 {
+  font-family: segoesc, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 22px;
+  color: rgb(243, 210, 167);
+}
+
+.hp2 {
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+
+.socblock {
+  width: 80px;
+}
+
+.mwidth {
+  max-width: 1140px;
+}
+
+.col.mwidth2 {
+  max-width: 1900px;
+}
+
+.i-block {
+  display: inline-block;
+  padding: 0 5px;
+  line-height: 25px;
+  color: #fff;
+  font-size: 0;
+}
+
+.i-block span {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+i.i-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+}
+
+i.rost {
+  background-image: url(./img/ico-rost.png);
+}
+
+i.grud {
+  background-image: url(./img/ico-grud.png);
+}
+
+i.ves {
+  background-image: url(./img/ico-ves.png);
+}
+
+i.user {
+  background-image: url(./img/ico-user.png);
+}
+
+i.phone {
+  background-image: url(./img/ico-phone.png);
+}
+
+i.vk {
+  background-image: url(./img/ico-vk.png);
+}
+
+i.insta {
+  background-image: url(./img/ico-insta.png);
+}
+
+i.wats {
+  background-image: url(./img/ico-wats.png);
+}
+
+.form-main .action span {  
+  max-width: 300px;
+  font-style: italic;
+}
+
+.form-main .action span, form .action span a {
+  color: #949494;
+}
+
+.form-main .action span a {
+  text-decoration: underline;
+}
+
+.form-main .form-control {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px #f0c99a solid;
+  border-radius: 0px;
+  padding-right: 50px;
+}
+
+.form-main .form-control:focus {
+  background-color: transparent;
+  color: white;
+  border-left: 1px #f0c99a solid;
+  box-shadow: none;
+}
+
+.form-main .form-control.is-invalid {
+background-image: none;
+  border-bottom: 1px red solid;
+}
+.inner-addon {
+  position: relative;
+}
+
+.inner-addon .i-item {
+  position: absolute;
+  padding: 0px;
+  pointer-events: none;
+  color: #fff;
+  bottom: 1em;
+}
+
+.left-addon .i-item {
+  left: 0px;
+}
+
+.right-addon .i-item {
+  right: 0px;
+}
+
+.left-addon input {
+  padding-left: 50px;
+}
+
+.right-addon input {
+  padding-right: 50px;
+}
+
+.footer, .footer a {
+  color: #b6b6b6
+}
+
+.footer i {
+  opacity: 0.5;
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+  }
+}

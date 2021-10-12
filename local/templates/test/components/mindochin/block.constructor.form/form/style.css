@@ -1,0 +1,72 @@
+form div.form-block,
+form div.form-load,
+form div.form-thanks
+{
+	display: none;
+}
+form div.form-block.active,
+form div.form-load.active,
+form div.form-thanks.active
+{
+	display: block;
+}
+form div.form-load,
+form div.form-thanks
+{
+	font-size: 1.5rem;
+	text-align: center;
+}
+form .form-title {
+	font-size:1.3rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+form input:required {
+    border-bottom: 1px solid red; /* Красная рамка для обязательных полей */
+   }
+div[class^="block-form"] form {
+	max-width: 330px;
+	padding: 1rem;
+	background-color: rgba(204,204,204,0.7);/*rgba(168,76,0,0.3);*/
+	border: 1px solid #ccc;/*rgba(168,76,0,0.4);*/
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+}
+div[class^="block-form"].bg-overlay-light form {
+	max-width: 330px;
+	padding: 0.9rem;
+	background-color: rgba(238,238,238,0.5);/*rgba(168,76,0,0.2);*/
+	border: 1px solid #eee;/* rgba(168,76,0,0.3);*/
+}
+div[class^="block-form"].bg-overlay-dark form {
+	max-width: 330px;
+	padding: 1rem;
+	background-color: rgba(231,202,184,0.4);
+	border: 1px solid rgba(231,202,184,0.45);
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 1px 0px 0px rgba(100, 100, 100, 0.5);
+}
+/*div[class^="block-form"] form .form-control {
+	border: 1px solid rgba(168,76,0,0.3);
+}*/
+div[class^="block-form"] form .form-control.is-invalid,
+div[class^="block-form"] form .was-validated .form-control:invalid {
+    border-color: #dc3545;
+}
+#modalBlockForm .modal-body {
+	padding: 1rem 0px;
+	background-color: rgba(204,204,204,0.4);
+}
+#modalBlockForm .modal-header {	
+	border-bottom: 1px solid #ccc;
+}
+#modalBlockForm .modal-body div[class^="block-form"] form {
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:  none;
+}

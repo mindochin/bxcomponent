@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+	.article_column {columns:2}
+}
+.article_column .article_item {font-size: 14px; margin-bottom: 0.5em; display: flex;}
+.article_column .article_item .article_date {display: inline-block; text-align: right; min-width: 125px; margin-right: 1em;}
